@@ -10,4 +10,5 @@ La aplicación corre en el puerto 8580
 Para cambiar las propiedades de la conexión con la base de datos se debe modificar el archivo applicattion.properties
 Para ver el catálogo de servicios se puede visualizar en 'http://localhost:8580/swagger-ui/index.html#/'
 Para abrir la aplicación es necesario descargra el proyecto de GitHub y descargar el ide de desarrollo e importarlo.
-El IDE trae un servidor incluido que permite desplegar la aplicación mediante la interfaz gráfica o ejecutando el archivo mvnw.cmd en windows o mvnw en Linux
+El IDE trae un servidor incluido que permite desplegar la aplicación mediante la interfaz gráfica o ejecutando el archivo mvnw.cmd en windows o mvnw en Linux.
+El archivo applicattion.properties está con la propiedad spring.jpa.hibernate.ddl-auto=create-drop para que genere el modelo de datos cada vez que se suba el servidor, se puede actualizar a spring.jpa.hibernate.ddl-auto=update para que no se pierdan los datos de pruebas.
