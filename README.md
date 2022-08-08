@@ -9,4 +9,5 @@ Se conecta a una base de datos local PostgreSQL version 14 (https://www.enterpri
 La aplicación corre en el puerto 8580 
 Para cambiar las propiedades de la conexión con la base de datos se debe modificar el archivo applicattion.properties
 Para ver el catálogo de servicios se puede visualizar en 'http://localhost:8580/swagger-ui/index.html#/'
-
+Para abrir la aplicación es necesario descargra el proyecto de GitHub y descargar el ide de desarrollo e importarlo.
+El IDE trae un servidor incluido que permite desplegar la aplicación mediante la interfaz gráfica o ejecutando el archivo mvnw.cmd en windows o mvnw en Linux
